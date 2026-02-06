@@ -2,8 +2,8 @@
 
 ## System Architecture
 
-learn-anything/
-│
+```
+ichi-kara/
 ├── backend/
 │   ├── app/
 │   │   ├── main.py
@@ -13,15 +13,13 @@ learn-anything/
 │   │   └── db/
 │   ├── requirements.txt
 │   └── README.md
-│
 ├── frontend/
 │   ├── src/
 │   └── README.md
-│
 ├── docs/
 │   ├── architecture.md
 │   └── design.md
-│
 ├── .gitignore
 ├── README.md
 └── LICENSE
+```
