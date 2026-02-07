@@ -18,6 +18,7 @@
     visuals / slides / diagrams
     Designed for quick learning
 - Feels like a short, focused lecture
+- The guided video is programmatically generated from the same curated knowledge base using AI narration and visual synthesis.
 
 Same knowledge core.
 Two different cognitive entry points.
@@ -76,3 +77,5 @@ AI Explanation Engine
           ↓
       Guided Learning Video
 ```
+
+``` Project Status: Early development (v0.1). Core crawling and text-generation pipelines are under active development. Video generation is planned for a later milestone. ```
