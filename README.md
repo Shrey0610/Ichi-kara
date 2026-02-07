@@ -43,3 +43,23 @@ ichi-kara/
 ├── README.md
 └── LICENSE
 ```
+
+## Process Architecture
+
+```
+User Topic
+   ↓
+Search + Crawl
+   ↓
+Clean & Extract
+   ↓
+Knowledge Store (text + embeddings)
+   ↓
+AI Explanation Engine
+   ├── Text Notes (read mode)
+   └── Teaching Script
+          ↓
+      Video Generator
+          ↓
+      Guided Learning Video
+```
