@@ -5,9 +5,22 @@
 
 - Given a topic, the system discovers relevant educational content, extracts the core ideas, and presents them in two complementary formats:
 
-> 1. Original readable content — clean, distraction-free versions of source material with proper attribution.
+> 1. Mode A — 📘 AI-Curated Notes
+- Structured explanations
+- Examples, analogies
+- Key ideas distilled from multiple sources Beginner → intermediate flow
+- Based on real references, not hallucination
 
-> 2. AI-generated explanations — simplified, structured interpretations designed to help learners understand concepts from first principles.
+> 2. Mode B — 🎥 AI-Generated Guided Video
+- Same knowledge
+- Converted into:
+    narration
+    visuals / slides / diagrams
+    Designed for quick learning
+- Feels like a short, focused lecture
+
+Same knowledge core.
+Two different cognitive entry points.
 
 - The goal of ichi-kara is not just to summarize information, but to support deep understanding across domains — programming, data science, design, humanities, or any subject the learner wants to explore.
 
