@@ -8,8 +8,8 @@ from fastapi import FastAPI, Request
 from pydantic import BaseModel
 
 # Import fetch and extract functions from crawler module
-from crawler.fetch import fetch_html
-from crawler.extract import extract_text
+from crawler.crawler import crawl_page
+
 
 # Create FastAPI app instance
 app = FastAPI()
@@ -28,12 +28,5 @@ def read_root():
 
 @app.post("/crawl")
 def crawl_url(request: CrawlRequest):
-    """
-    POST endpoint to crawl a URL and return extracted clean text.
-    """
-    # Fetch raw HTML from the given URL
-    html = fetch_html(request.url)
-    # Extract clean text from the HTML
-    clean_text = extract_text(html)
-    # Return the result as JSON
-    return {"text": clean_text}
+    return crawl_page(request.url)
+
